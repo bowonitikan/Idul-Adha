@@ -1,0 +1,6 @@
+{
+  "name": "Qurban Masjid Al Ikhlas GBI",
+  "description": "Website interaktif 3D publikasi kegiatan Idul Qurban Masjid Al Ikhlas Perumahan Griya Bantar Indah Purwokerto.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-mono: "Fira Code", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom gorgeous scrollbar for deep futuristic immersive web */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #047857;
+  border-radius: 9999px;
+  border: 2px solid #020617;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f59e0b;
+}
+
+/* Custom markdown bodies inside blogger HTML content */
+.markdown-body p {
+  margin-bottom: 1.25rem;
+  line-height: 1.75;
+}
+
+.markdown-body img {
+  border-radius: 1rem;
+  margin: 1.5rem auto;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
